@@ -1,0 +1,135 @@
+html {
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+header {
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+    text-align: center;
+  }
+
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  footer p {
+    color: #ccc;
+  }
+
+  .createPopUp{
+    font-size: large;
+    position: relative;
+    float: right;
+    margin-top: 3%;
+    margin-right: 10px;
+    color: #f5ba13;
+    border: none;
+    border-radius: 20%;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .popUpBody{
+    position: absolute;
+    width: fit-content;
+    max-height: 300px;
+    padding-top: 3px;
+    top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+margin: auto;
+    /* -moz-box-align: center; */
+    background: #fff;
+    /* padding: 15px; */
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+ 
+
+  .Beignet {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+  }
+  .Beignet h1 {
+    font-size: 1.1em;
+    margin-bottom: 2px;
+  }
+  .Beignet h3 {
+      font-size:0.8em;
+    margin-bottom: 6px;
+  }
+  .Beignet p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .Beignet button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #f5ba13;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+  }
+  form {
+    position: relative;
+    width: 480px;
+    /* margin: 20px auto 20px auto; */
+    background:transparent;
+    padding: 15px;
+    border-radius: 7px;
+    border: hidden;
+    /* box-shadow: 0 1px 5px rgb(138, 137, 137); */
+  }
+  form input,
+  form textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+  }
+  form button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #f5ba13;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
+  
